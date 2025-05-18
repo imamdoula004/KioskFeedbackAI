@@ -2,7 +2,7 @@
 
 This project is a Community Feedback System that collects feedback from users through a GUI interface and processes it using sentiment analysis and voice integration to help businesses or public services gather insights and improve their services. I made it with the help of ChatGPT, and this can be an amazing implementation for local smart kiosks in public buildings and spaces by the government!  
 
-Features:
+# Features:
 Collects Feedback via GUI: Users can input feedback through a graphical interface.
 
 Sentiment Analysis: Uses Hugging Face transformers and OpenAI's models for sentiment analysis to categorize feedback as positive, neutral, or negative.
@@ -13,7 +13,7 @@ Feedback Visualization: Displays a visualization of the feedback sentiment as a 
 
 Data Storage: Feedback is stored for further analysis and report generation.
 
-Requirements:
+# Requirements:
 Python 3.11+ (Make sure Python is installed on your PC)
 
 Libraries:
@@ -30,7 +30,7 @@ soundfile
 
 matplotlib
 
-Installation:
+# Installation:
 1. Install Python 3.11:
 Ensure that Python 3.11 (or a compatible version) is installed on your system. You can download it from the official Python website.
 
@@ -80,7 +80,7 @@ bash:
 pip install openai-whisper
 
 
-Running the Code:
+# Running the Code:
 Clone the Repository:
 
 Clone this repository to your local machine:
@@ -123,11 +123,11 @@ Feedback Visualization:
 
 The program will display a visual graph representing the sentiment analysis result.
 
-Results Storage:
+# Results Storage:
 
 All feedback data is stored, and users can view the feedback results and the sentiment score.
 
-Example Usage:
+# Example Usage:
 Text Feedback:
 
 Type your feedback in the text box and hit the Submit button. The sentiment analysis result will be displayed.
@@ -136,10 +136,10 @@ Voice Feedback:
 
 Press the Record button, speak your feedback for 10 seconds, and the program will transcribe and analyze your voice feedback.
 
-Troubleshooting:
+# Troubleshooting:
 If you get an error related to sounddevice during installation, try installing it using a pre-built .whl file or follow the installation guide here.
 
 Ensure all required libraries are installed using pip.
 
-Contributing:
+# Contributing:
 Feel free to fork this repository, make improvements, and submit pull requests. If you encounter any bugs, please raise an issue on the GitHub repository.
